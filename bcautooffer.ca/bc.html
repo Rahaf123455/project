@@ -1,0 +1,730 @@
+<html lang="en">
+
+<head>
+    <!--meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="images/" href="images/logo.png">
+
+    <!-- Font start  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font end  -->
+
+    <!--CSS Links-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title> BC Auto Offer</title>
+</head>
+
+<body>
+
+
+
+
+    <!-- header section strats -->
+    <header class="header_section">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo png black.png" width="60px" alt="">
+                </a>
+                <div class="" id="">
+                    <div class="User_option">
+                        <a href="contact.html" class="contact-btn"><i class="fa-solid fa-phone me-1"></i> Contact</a>
+                    </div>
+
+                    <div class="custom_menu-btn">
+                        <button onclick="openNav()">
+                            <span class="s-1">
+
+                            </span>
+                            <span class="s-2">
+
+                            </span>
+                            <span class="s-3">
+
+                            </span>
+                        </button>
+                    </div>
+                    <div id="myNav" class="overlay">
+                        <div class="overlay-content">
+                            <div class="overlay-content">
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About Us</a>
+                                <a href="contact.html">Contact Us</a>
+                                <a href="privacy.html">Privacy Policy</a>
+                                <a href="bc.html">Sell My Car Alberta</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- alberta part start -->
+    <section class="alberta-sec">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class="col-xl-6 col-md-6">
+                    <div class="alberta-content">
+                        <h1>Hello Canada! <span>Sell Your Car Today.</span> </h1>
+                        <p>“Your Fast Track to Effortless Car Selling – Instant Offers, On-the-Spot Payment, Stress-Free Transactions!”
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="form-box">
+                        <form id="Form1">
+                            <h3>Sell My Car</h3>
+                            <div class="row">
+                                <div class="col-sm-6 col-6">
+                                    <div class="form-group">
+                                        <select class="form-select" name="year" aria-label="Default select example" id="year">
+                                                                <option selected>Year</option>
+                                                                <option value="1">2019</option>
+                                                                <option value="2">2020</option>
+                                                                <option value="3">2021</option>
+                                                            </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-6">
+                                    <div class="form-group">
+                                        <select class="form-select" name="make" aria-label="Default select example" id="make">
+                                                                <option selected>Make</option>
+                                                                <option value="1">Audi</option>
+                                                                <option value="2">BMW</option>
+                                                                <option value="3">Honda</option>
+                                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-sm-6 col-6">
+                                    <div class="form-group">
+                                        <select class="form-select" name="model" aria-label="Default select example" id="model">
+                                                                <option selected>Model</option>
+                                                                <option value="1">a3</option>
+                                                                <option value="2">a4</option>
+                                                                <option value="3">a5</option>
+                                                            </select>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-6">
+                                    <div class="form-group">
+                                        <select class="form-select" name="trim" aria-label="Default select example" id="trim">
+                                                                <option selected>Trim</option>
+                                                                <option value="1">Premium</option>
+                                                                <option value="2">Premium-Plus</option>
+                                                                <option value="3">Prestige</option>
+                                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="number" placeholder="Mileage" name="mileage" class="form-control " id="mileage">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="btn-box">
+                                <button type="button" id="Next1">Next</button>
+                            </div>
+
+
+                        </form>
+
+
+                        <form id="Form2">
+
+                            <h3>Aditional Info</h3>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="" class="label">Vehicle Pictures</label>
+                                        <input name="images" type="file" name="name" class="form-control" id="images" multiple>
+                                        <label class="form-control-placeholder" for="name"></label>
+                                        <div class="invalid-feedback">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="" class="label">Regestration Paper Work</label>
+                                        <input name="papers" type="file" class="form-control" id="papers" multiple>
+                                        <label class="form-control-placeholder" for="name"></label>
+                                        <div class="invalid-feedback">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="btn-box">
+                                <button type="button" id="Back1">Back</button>
+                                <button type="button" id="Next2">Next</button>
+                            </div>
+
+                        </form>
+
+                        <form id="Form3">
+
+
+                            <h3 class="personal-info">Personal Information</h3>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="" class="label">Name<span class="text-danger">*</span></label>
+                                        <input name="name" type="text" class="form-control" required id="name">
+                                        <label class="form-control-placeholder" for="name"></label>
+                                        <div class="invalid-feedback">
+                                            First Name is Required
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="" class="label">Email<span class="text-danger">*</span></label>
+                                        <input name="email" type="email" class="form-control" required id="email">
+                                        <label class="form-control-placeholder" for="eamil"></label>
+                                        <div class="invalid-feedback">
+                                            Email is Required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="" class="label">Phone Number<span class="text-danger">*</span></label>
+                                        <input name="phone" type="text" class="form-control" required id="phone">
+                                        <label class="form-control-placeholder" for="phone"></label>
+                                        <div class="invalid-feedback">
+                                            Phon Number
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <select class="form-select" name="Province" aria-label="Default select example" id="year">
+                                                                <option selected>Province</option>
+                                                                <option value="Alberta" >Alberta</option>
+                                                                <option value="British Columbia"  >British Columbia</option>
+                                                                <option value="Saskatchewan" >Saskatchewan</option>
+                                                                <option value="Yukon" >Yukon</option>
+                                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <label for="" class="label">Your Message</label>
+                                        <textarea name="message" class="form-control" required cols="0" rows="" id="message"></textarea>
+
+                                        <label class="form-control-placeholder cc-textarea" for="message"></label>
+                                        <div class="invalid-feedback">
+                                            Short Description is Required
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="btn-box">
+                                <button type="button" id="Back2">Back</button>
+                                <button type="button" id="submit">Submit</button>
+                            </div>
+
+                        </form>
+
+                        <div class="step-row">
+                            <div id="progress"></div>
+                            <div class="step-col"><small>Step 1</small></div>
+                            <div class="step-col"><small>Step 2</small></div>
+                            <div class="step-col"><small>Step 3</small></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- alberta part end -->
+
+
+
+    <!-- albarta work part start -->
+    <section class="albarta-work">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="work-heading text-center">
+                        <h1>How It <span>Works</span></h1>
+                        <p>Sell Your Car Fast with BC Auto Offer in 3 Simple Steps!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-around align-items-center">
+                <div class="col-xl-7 col-md-7 order-md-0 order-1 ">
+                    <div class="title-wrapper">
+                        <!-- <h1 class="title">Ongoing Updates For Your Website </h1> -->
+                    </div>
+
+                    <div class="single-ongoing-update">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="icon-cc ">
+                                    <i class="fa-solid fa-mug-hot icon-cc-box"></i>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-10">
+                                <h2>Get Instant Offer</h2>
+                                <p>
+                                    Use our AI app for an instant cash offer based on your car's details and market trends.
+                                </p>
+                                <div>
+                                    <!-- <a href="#">Explore More <img src="images/arrow-Icon.png" class="ms-2 mb-1" width="" alt=""></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-ongoing-update">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="icon-cc ">
+                                    <i class="fa-solid fa-people-arrows icon-cc-box"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-10">
+                                <h2>Confirm and Finalize Car Evaluation</h2>
+                                <p>
+                                    Accept the offer, receive a quick call for confirmation, and finalize your fair valuation.
+                                </p>
+                                <div>
+                                    <!-- <a href="#">Explore More <img src="images/arrow-Icon.png" class="ms-2 mb-1" width="" alt=""></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single-ongoing-update">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="icon-cc ">
+                                    <i class="fa-regular fa-calendar-check icon-cc-box"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-10">
+                                <h2>On-the-Spot Payment when you sell your car </h2>
+                                <p>
+                                    Schedule a pickup, and our team will arrive, ensuring on-the-spot payment for a hassle-free transaction.
+                                </p>
+                                <div>
+                                    <!-- <a href="#">Explore More <img src="images/arrow-Icon.png" class="ms-2 mb-1" width="" alt=""></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="single-ongoing-update">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <div class="icon-cc ">
+                                    <i class="fa-solid fa-money-check-dollar icon-cc-box"></i>
+                                </div>
+                            </div>
+                            <div class="col-sm-10">
+                                <h2>Selling your car made easy </h2>
+                                <p>
+                                    Sell your car stress-free with BC Auto Offer– the easiest way to turn your car into cash!
+                                </p>
+                                <div>
+                                    <!-- <a href="#">Explore More <img src="images/arrow-Icon.png" class="ms-2 mb-1" width="" alt=""></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" mt-5">
+                        <a href="#" class="primary-btn">Explore More</a>
+                    </div>
+
+
+                </div>
+                <div class="col-xl-4 col-md-5 col-sm-8 order-md-1 order-0 mb-md-0 mb-5">
+                    <div class="alberta-img">
+                        <img src="images/workimg.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- albarta work part end -->
+
+
+
+    <!-- Footer start  -->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-sm-around ">
+                <div class="col-xl-4 col-sm-6 my-md-0 my-4">
+                    <a href="index.html"><img src="images/logo.png" width="50" alt=""></a>
+                    <p class="fo-left-content"></p>
+                    <div class="footer-social">
+                        <ul class="list-unstyled list-inline mb-0 ">
+                            <li class="list-inline-item "><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li class="list-inline-item "><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 my-md-0 my-4">
+                    <h2>Get In Touch</h2>
+                    <ul class="list-unstyled mb-0">
+
+                        <a href="">
+                            <li>Email: info@bcautoffer.com</li>
+                        </a>
+                        <a href="">
+                            <li>Phone: (236) 660-6395</li>
+                        </a>
+                        <a href="">
+                            <li>Hours: Mon-Sun 9:00AM - 10:00PM</li>
+                        </a>
+
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-sm-6 my-md-0 my-4">
+                    <h2>Quick Links</h2>
+                    <ul class="list-unstyled mb-0">
+                        <a href="about.html">
+                            <li>About Us</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact Us</li>
+                        </a>
+                        <a href="privacy.html">
+                            <li>Privacy Policy</li>
+                        </a>
+
+
+
+                    </ul>
+
+                </div>
+                <div class="col-xl-3 col-sm-6 my-md-0 my-4">
+                    <h2>Services</h2>
+                    <ul class="list-unstyled mb-0">
+                        <a href="bc.html">
+                            <li>Sell My Car Yukon</li>
+                        </a>
+                        <a href="bc.html">
+                            <li>Sell My Car Alberta</li>
+                        </a>
+
+                        <a href="bc.html">
+                            <li>Sell My Car British Columbia</li>
+                        </a>
+
+                        <a href="bc.html">
+                            <li>Sell My Car Saskatchewan </li>
+                        </a>
+                    </ul>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="mb-0 footer-text ">Copyright ©
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> BC Auto Offer. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+    <!-- Footer end  -->
+
+
+    <!-- Modal for Successfulll start  -->
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade success" id="exampleModal-success" tabindex="-1" aria-labelledby="exampleModalLabel-success" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered">
+            <div class="modal-content successfull">
+                <div class="modal-header border-0 ">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel-success"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="success-wrapper text-center">
+                        <div class="chexk-box">
+                            <i class="fa-regular fa-circle-check"></i>
+                        </div>
+                        <p>Data Submission Successful</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Successfulll end -->
+
+    <!-- Modal for Unsuccessfull start  -->
+
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade success " id="exampleModal-unsuccess" tabindex="-1" aria-labelledby="exampleModalLabel-unsuccess" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content successfull">
+                <div class="modal-header border-0 ">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel-unsuccess"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="success-wrapper text-center">
+                        <div class="chexk-box-cross">
+                            <i class="fa-regular fa-circle-xmark"></i>
+                        </div>
+                        <p>Data Submission Unsuccessful</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Unsuccessfull end -->
+
+
+
+
+
+
+
+    <script>
+        var Form1 = document.getElementById("Form1");
+        var Form2 = document.getElementById("Form2");
+        var Form3 = document.getElementById("Form3");
+
+        var Next1 = document.getElementById("Next1");
+        var Next2 = document.getElementById("Next2");
+        var Back1 = document.getElementById("Back1");
+        var Back2 = document.getElementById("Back2");
+
+        var progress = document.getElementById("progress");
+
+        Next1.onclick = function() {
+            Form1.style.left = "-450px";
+            Form2.style.left = "40px";
+            progress.style.width = "240px";
+        }
+        Back1.onclick = function() {
+            Form1.style.left = "40px";
+            Form2.style.left = "450px";
+            progress.style.width = "120px";
+        }
+
+        Next2.onclick = function() {
+            Form2.style.left = "-450px";
+            Form3.style.left = "40px";
+            progress.style.width = "360px";
+        }
+
+        Back2.onclick = function() {
+            Form2.style.left = "40px";
+            Form3.style.left = "450px";
+            progress.style.width = "240px";
+        }
+    </script>
+
+
+
+    <!--JS -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+
+
+
+    <!-- Counter up -->
+    <script src="vendor/counter/js/waypoints.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="vendor/counter/js/jquery.counterup.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+    <script>
+        document.querySelector('.toggle')
+            .addEventListener('click', function() {
+                this.classList.toggle('activate');
+            });
+    </script>
+
+    <script>
+        var apiroot = 'https://api.tanjilrahman.xyz/';
+    </script>
+
+    <script type="text/javascript">
+        $(window).on('load', function() {
+            $.ajax({
+                type: 'GET',
+                url: apiroot + "api.php?type=years",
+                success: function(result) {
+                    $("#year").html(result);
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('#year').on('change', function() {
+
+            $.ajax({
+                type: 'GET',
+                url: apiroot + "api.php?type=makes&year=" + this.value,
+                success: function(result) {
+                    $("#make").html(result);
+                    // console.log(result);
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('#make').on('change', function() {
+            let year = $('#year').find(":selected").val()
+            $.ajax({
+                type: 'GET',
+                url: apiroot + "api.php?type=models&year=" + year + "&make=" + this.value,
+                success: function(result) {
+                    $("#model").html(result);
+                    // console.log(result);
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('#model').on('change', function() {
+            let year = $('#year').find(":selected").val();
+            let make = $('#make').find(":selected").val();
+            $.ajax({
+                type: 'GET',
+                url: apiroot + "api.php?type=trims&year=" + year + "&make=" + make + "&model=" + this.value,
+                success: function(result) {
+                    $("#trim").html(result);
+                    // console.log(result);
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $('#submit').on('click', function() {
+
+
+
+            let form1data = $('#Form1').serializeArray();
+            let form3data = $('#Form3').serializeArray();
+
+            if (form3data[0].value === '') {
+                alert('Name can not be empty');
+            } else if (form3data[1].value === '') {
+                alert('Email can not be empty');
+            } else if (form3data[2].value === '') {
+                alert('Phone can not be empty');
+            } else {
+                var formdata = new FormData();
+                $.each(form1data, function(key, input) {
+                    formdata.append(input.name, input.value);
+                });
+                $.each(form3data, function(key, input) {
+                    formdata.append(input.name, input.value);
+                });
+
+
+                var images = $('input[name="images"]')[0].files;
+                let papers = $('input[name="papers"]')[0].files;
+
+                console.log(images)
+
+                for (var i = 0; i < images.length; i++) {
+                    formdata.append('images[]', images[i]);
+                }
+                for (var i = 0; i < papers.length; i++) {
+                    formdata.append('papers[]', papers[i]);
+                }
+
+                $.ajax({
+                    method: 'post',
+                    processData: false,
+                    contentType: false,
+                    cache: false,
+                    data: formdata,
+                    url: "https://hook.us1.make.com/loamomuq6da5wqtosj7jnr4wi3cd5li7",
+
+                    success: function(data) {
+                        // $('#exampleModal-success').modal('show');
+                        window.location.href = "thankyou.html";
+                    },
+                    error: function(data) {
+                        // $('#exampleModal-unsuccess').modal('show');
+                        window.location.href = "unsuccessfull.html";
+                    }
+                });
+
+                $('#exampleModal').modal('toggle');
+            }
+
+
+
+        });
+    </script>
+
+
+</body>
+
+</html>
