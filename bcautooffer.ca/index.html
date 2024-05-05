@@ -1080,6 +1080,19 @@
                     province: formData.province.value
                 };
             }
+            $.ajax({
+        type: "POST",
+        url: "formSubmition.php",
+        data: JSON.stringify(formData),
+        contentType: "application/json",
+        success: function(response) {
+            console.log("Data submitted successfully");
+        },
+        error: function(xhr, status, error) {
+            console.error("Error submitting data:", error);
+        }
+    });
+    */
 
 
             // Your JavaScript code here
